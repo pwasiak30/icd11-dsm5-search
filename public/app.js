@@ -10,6 +10,7 @@
   const HINTS = {
     name: 'Wpisz fragment nazwy, np. "depresja", "lek", "schizofrenia" (po polsku) albo "anxiety", "psychotic" (po angielsku - pelna lista 884 pozycji rozdzialu 06 ICD-11 jest w oryginale anglojezyczna).',
     icd11: 'Wpisz kod ICD-11, np. 6A70, 6B00, 6D10.',
+    icd10: 'Wpisz kod ICD-10-CM, np. F32.9, F41.1, F90.0. Wyszukiwanie w recznie zweryfikowanej tabeli mapowania (95 diagnoz).',
     dsm5: 'Wpisz kod DSM-5, np. 296.2x, 300.02, 309.81. Wyszukiwanie w recznie przygotowanej tabeli mapowania (95 diagnoz).',
   };
 
@@ -136,6 +137,8 @@
       renderNameResults(searchByName(q));
     } else if (currentMode === 'icd11') {
       renderIcd11Results(searchByIcd11Code(q));
+    } else if (currentMode === 'icd10') {
+      renderIcd10Results(searchByIcd10Code(q));
     } else if (currentMode === 'dsm5') {
       renderDsm5Results(searchByDsm5Code(q));
     }
@@ -184,12 +187,27 @@
       .map((e) => ({ title: e.dsm5Name, code: e.dsm5Code, source: 'crosswalk', entry: e }));
   }
 
+  function searchByIcd10Code(q) {
+    const nq = q.trim().toLowerCase().replace(/\s/g, '');
+    return crosswalk.entries
+      .filter((e) => e.icd10Code && e.icd10Code.toLowerCase().replace(/\s/g, '').includes(nq))
+      .map((e) => ({ title: e.icd11Name, code: e.icd10Code, source: 'crosswalk', entry: e }));
+  }
+
   function renderNameResults(items) {
     renderGenericList(items, (e) => e.category ? `${escapeHtml(e.category)} - ICD-11: ${escapeHtml(e.icd11Code || '(bez kodu)')}` : `ICD-11: ${escapeHtml(e.code || '(bez kodu)')}`);
   }
 
   function renderIcd11Results(items) {
     renderGenericList(items, (e, item) => item.source === 'crosswalk' ? `DSM-5: ${escapeHtml(e.dsm5Code)}` : 'Pelna lista WHO (bez polskiego tlumaczenia i bez opisu skroconego)');
+  }
+
+  function renderIcd10Results(items) {
+    if (!items || items.length === 0) {
+      resultsEl.innerHTML = '<p class="empty">Brak wynikow w tabeli mapowania ICD-10-CM.</p>';
+      return;
+    }
+    renderGenericList(items, (e) => `ICD-11: ${escapeHtml(e.icd11Code)} | DSM-5: ${escapeHtml(e.dsm5Code)}`);
   }
 
   function renderDsm5Results(items) {
@@ -234,6 +252,7 @@
         <h2>${escapeHtml(e.icd11Name)}</h2>
         <div class="codes">
           <span class="badge">ICD-11: ${escapeHtml(e.icd11Code)}</span>
+          ${e.icd10Code ? `<span class="badge">ICD-10-CM: ${escapeHtml(e.icd10Code)}</span>` : ''}
           <span class="badge">DSM-5: ${escapeHtml(e.dsm5Code)}</span>
           <span class="badge">Kategoria: ${escapeHtml(e.category)}</span>
         </div>
