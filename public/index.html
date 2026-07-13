@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Wyszukiwarka zaburzeń psychicznych — ICD-11 / DSM-5 (offline, bez logowania)</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Wyszukiwarka zaburzeń psychicznych</h1>
+      <p class="subtitle">Nazwa · kod ICD-11 · kod DSM-5 — działa w pełni offline, bez zakładania konta i logowania w WHO ICD-API</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="search-panel">
+      <div class="mode-switch" role="tablist" aria-label="Sposób wyszukiwania">
+        <button class="mode-btn active" data-mode="name">Nazwa</button>
+        <button class="mode-btn" data-mode="icd11">Kod ICD-11</button>
+        <button class="mode-btn" data-mode="dsm5">Kod DSM-5</button>
+      </div>
+
+      <form id="search-form" autocomplete="off">
+        <input
+          id="search-input"
+          type="text"
+          placeholder="np. depresja, 6A70, 296.2x…"
+          aria-label="Fraza wyszukiwania"
+        />
+        <button type="submit">Szukaj</button>
+      </form>
+      <p id="search-hint" class="hint"></p>
+      <p id="status-line" class="status-line"></p>
+    </section>
+
+    <section id="results" class="results" aria-live="polite"></section>
+
+    <section id="detail" class="detail" hidden></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="about">
+        <h2>O projekcie i autorze</h2>
+        <p>
+          Cześć, nazywam się Paweł. Studiuję psychologię na Akademii Humanistyczno-Ekonomicznej w Łodzi.
+          Ta strona to mój prywatny projekt edukacyjny — narzędzie ułatwiające szybkie sprawdzenie nazwy,
+          kodu ICD-11 i (przybliżonego) kodu DSM-5 dla zaburzeń psychicznych. Działa w pełni offline,
+          na danych wbudowanych w stronę — bez zakładania konta i logowania się w WHO ICD-API.
+        </p>
+        <p class="disclaimer">
+          Materiał ma charakter wyłącznie edukacyjny i porządkujący — nie zastępuje diagnozy, konsultacji
+          ani oryginalnych klasyfikacji (ICD-11, DSM-5-TR). Mapowanie kodów DSM-5 oraz skrócone opisy są
+          przygotowane ręcznie i mogą być niepełne — pełny, oficjalny tekst ICD-11 jest bezpłatnie dostępny
+          (bez logowania) w <a href="https://icd.who.int/browse11/l-m/en" target="_blank" rel="noopener">oficjalnej przeglądarce WHO</a>.
+        </p>
+      </div>
+      <div class="links">
+        <h2>Zobacz też</h2>
+        <ul>
+          <li><a href="https://wolna-glowa.netlify.app/" target="_blank" rel="noopener">Wolna Głowa — mój drugi projekt</a></li>
+          <li><a href="https://www.youtube.com/@psychologia_wasiak" target="_blank" rel="noopener">Kanał YouTube — psychologia_wasiak</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/fflate@0.8.2/umd/index.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
