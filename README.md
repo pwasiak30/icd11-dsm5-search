@@ -1,7 +1,7 @@
 # Wyszukiwarka zaburzeń psychicznych (ICD-11 / DSM-5) — wersja offline, bez logowania
 
 Aplikacja webowa, która pozwala wyszukać zaburzenie psychiczne po nazwie, kodzie
-ICD-11 lub (przybliżonym) kodzie DSM-5. **Nie wymaga zakładania konta ani
+ICD-11, kodzie ICD-10-CM lub (przybliżonym) kodzie DSM-5. **Nie wymaga zakładania konta ani
 logowania się nigdzie** — wszystkie dane są wbudowane w stronę.
 
 ## Dlaczego bez logowania (i co to oznacza)
@@ -28,10 +28,15 @@ robi — i mimo to potrafi pobierać aktualne dane na bieżąco:
   zapasową `public/data/icd11-chapter06-full.json` (zrzut z wydania 2024-01),
   więc wyszukiwarka działa zawsze, nawet offline. Pasek statusu nad wynikami
   pokazuje, z którego źródła aktualnie korzystasz.
-- **95 najczęściej używanych diagnoz** ma dodatkowo: polską nazwę, przybliżony
-  kod DSM-5 i krótki, autorski opis kliniczny (patrz niżej) —
-  `data/dsm5-icd11-crosswalk.json` (to zawsze wczytywane lokalnie, bo nie
-  istnieje publiczne, darmowe API do tych treści).
+- **95 najczęściej używanych diagnoz** ma dodatkowo: polską nazwę, kod
+  ICD-10-CM (USA), przybliżony kod DSM-5 i krótki, autorski opis kliniczny
+  (patrz niżej) — `data/dsm5-icd11-crosswalk.json` (to zawsze wczytywane
+  lokalnie, bo nie istnieje publiczne, darmowe API do tych treści).
+- **Kody ICD-10-CM** zostały zweryfikowane maszynowo przez oficjalny zestaw
+  kodów ICD-10-CM (FY2026, USA) — to reprezentatywny, ogólny wybór w ramach
+  kategorii (np. wariant „unspecified" tam, gdzie ICD-10-CM rozróżnia stopień
+  nasilenia albo podtyp). W realnej dokumentacji medycznej należy dobrać
+  dokładniejszy kod z odpowiednią specyfikacją.
 - Reszta pozycji (spoza tych 95) pokazuje tylko angielski tytuł, kod i link do
   oficjalnej, bezpłatnej przeglądarki ICD-11 (`icd.who.int/browse11`), gdzie
   można sprawdzić pełny, oficjalny opis — też bez logowania.
