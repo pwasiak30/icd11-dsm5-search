@@ -1,5 +1,5 @@
 {
- "_uwaga": "Mapowanie DSM-5 <-> ICD-11 przygotowane recznie na podstawie ogolnodostepnych tabel korespondencji (m.in. APA DSM-5-TR oraz WHO ICD-11 Reference Guide). Kody DSM-5 w praktyce klinicznej w USA odpowiadaja kodom ICD-10-CM. Traktuj to jako punkt wyjscia do wyszukiwania, a nie zrodlo diagnostyczne - zawsze weryfikuj z oryginalnym podrecznikiem/klasyfikacja. Krotkie opisy ('opis') sa autorskim streszczeniem przygotowanym na podstawie ogolnodostepnej wiedzy klinicznej (nie sa doslownym cytatem z oficjalnego tekstu ICD-11/DSM-5-TR, ktory wymaga licencjonowanego dostepu). Pelna, oficjalna tresc ICD-11 dostepna jest bezplatnie w przegladarce https://icd.who.int/browse11 (bez logowania).",
+ "_uwaga": "Mapowanie DSM-5 <-> ICD-11 przygotowane recznie na podstawie ogolnodostepnych tabel korespondencji (m.in. APA DSM-5-TR oraz WHO ICD-11 Reference Guide). Kody DSM-5 w praktyce klinicznej w USA odpowiadaja kodom ICD-10-CM. Traktuj to jako punkt wyjscia do wyszukiwania, a nie zrodlo diagnostyczne - zawsze weryfikuj z oryginalnym podrecznikiem/klasyfikacja. Krotkie opisy ('opis') sa autorskim streszczeniem przygotowanym na podstawie ogolnodostepnej wiedzy klinicznej (nie sa doslownym cytatem z oficjalnego tekstu ICD-11/DSM-5-TR, ktory wymaga licencjonowanego dostepu). Pelna, oficjalna tresc ICD-11 dostepna jest bezplatnie w przegladarce https://icd.who.int/browse11 (bez logowania). Kody ICD-10-CM ('icd10Code') pochodza z oficjalnego zestawu kodow ICD-10-CM FY2026 (USA) i zostaly zweryfikowane maszynowo, ale sa reprezentatywnym, ogolnym wyborem w ramach kategorii (np. wariant 'unspecified' tam, gdzie ICD-10-CM rozroznia stopien nasilenia lub podtyp) - w realnej dokumentacji medycznej nalezy dobrac dokladniejszy kod z odpowiednia specyfikacja.",
  "entries": [
   {
    "category": "Zaburzenia neurorozwojowe",
@@ -7,7 +7,8 @@
    "icd11Name": "Niepelnosprawnosc intelektualna, stopien umiarkowany",
    "dsm5Code": "319",
    "dsm5Name": "Niepelnosprawnosc intelektualna (umiarkowana)",
-   "opis": "Istotnie obniżone funkcjonowanie intelektualne (IQ w przedziale ok. 35-49) i adaptacyjne ujawniające się w okresie rozwojowym, wymagające znacznego wsparcia w codziennym funkcjonowaniu."
+   "opis": "Istotnie obniżone funkcjonowanie intelektualne (IQ w przedziale ok. 35-49) i adaptacyjne ujawniające się w okresie rozwojowym, wymagające znacznego wsparcia w codziennym funkcjonowaniu.",
+   "icd10Code": "F71"
   },
   {
    "category": "Zaburzenia neurorozwojowe",
@@ -15,7 +16,8 @@
    "icd11Name": "Zaburzenie ze spektrum autyzmu bez zaburzen rozwoju intelektualnego i z lagodnym lub bez upoledzenia jezyka funkcjonalnego",
    "dsm5Code": "299.00",
    "dsm5Name": "Zaburzenie ze spektrum autyzmu",
-   "opis": "Trwałe trudności w inicjowaniu i podtrzymywaniu wzajemnej interakcji społecznej oraz komunikacji, wraz z ograniczonymi, powtarzalnymi wzorcami zachowań i zainteresowań; bez towarzyszącej niepełnosprawności intelektualnej i z niewielkim lub żadnym upośledzeniem języka funkcjonalnego."
+   "opis": "Trwałe trudności w inicjowaniu i podtrzymywaniu wzajemnej interakcji społecznej oraz komunikacji, wraz z ograniczonymi, powtarzalnymi wzorcami zachowań i zainteresowań; bez towarzyszącej niepełnosprawności intelektualnej i z niewielkim lub żadnym upośledzeniem języka funkcjonalnego.",
+   "icd10Code": "F84.0"
   },
   {
    "category": "Zaburzenia neurorozwojowe",
@@ -23,7 +25,8 @@
    "icd11Name": "Zaburzenie ze spektrum autyzmu",
    "dsm5Code": "299.00",
    "dsm5Name": "Zaburzenie ze spektrum autyzmu",
-   "opis": "Zbiorcza kategoria obejmująca trwałe deficyty w interakcjach społecznych i komunikacji oraz sztywne, powtarzalne wzorce zachowań, zainteresowań lub aktywności, ujawniające się we wczesnym dzieciństwie, o zmiennym nasileniu i różnym poziomie towarzyszących zdolności intelektualnych i językowych."
+   "opis": "Zbiorcza kategoria obejmująca trwałe deficyty w interakcjach społecznych i komunikacji oraz sztywne, powtarzalne wzorce zachowań, zainteresowań lub aktywności, ujawniające się we wczesnym dzieciństwie, o zmiennym nasileniu i różnym poziomie towarzyszących zdolności intelektualnych i językowych.",
+   "icd10Code": "F84.0"
   },
   {
    "category": "Zaburzenia neurorozwojowe",
@@ -31,7 +34,8 @@
    "icd11Name": "ADHD, glownie z brakiem uwagi",
    "dsm5Code": "314.00",
    "dsm5Name": "ADHD typ z przewaga zaburzen koncentracji uwagi",
-   "opis": "Utrzymujący się wzorzec trudności w utrzymaniu uwagi, organizacji zadań i odporności na rozpraszanie, bez istotnej nadruchliwości czy impulsywności, obecny od dzieciństwa i wpływający na funkcjonowanie szkolne/zawodowe i społeczne."
+   "opis": "Utrzymujący się wzorzec trudności w utrzymaniu uwagi, organizacji zadań i odporności na rozpraszanie, bez istotnej nadruchliwości czy impulsywności, obecny od dzieciństwa i wpływający na funkcjonowanie szkolne/zawodowe i społeczne.",
+   "icd10Code": "F90.0"
   },
   {
    "category": "Zaburzenia neurorozwojowe",
@@ -39,7 +43,8 @@
    "icd11Name": "ADHD, glownie hiperaktywno-impulsywne",
    "dsm5Code": "314.01",
    "dsm5Name": "ADHD typ z przewaga nadruchliwosci/impulsywnosci",
-   "opis": "Utrzymujący się wzorzec nadmiernej ruchliwości, niepokoju i impulsywności działania bez znaczących trudności w koncentracji uwagi, obecny od dzieciństwa."
+   "opis": "Utrzymujący się wzorzec nadmiernej ruchliwości, niepokoju i impulsywności działania bez znaczących trudności w koncentracji uwagi, obecny od dzieciństwa.",
+   "icd10Code": "F90.1"
   },
   {
    "category": "Zaburzenia neurorozwojowe",
@@ -47,7 +52,8 @@
    "icd11Name": "ADHD, typ mieszany",
    "dsm5Code": "314.01",
    "dsm5Name": "ADHD typ mieszany",
-   "opis": "Połączenie objawów nieuwagi oraz nadruchliwości/impulsywności o nasileniu niezgodnym z etapem rozwoju, obecne w wielu kontekstach (szkoła, dom, praca) i powodujące istotne trudności funkcjonalne."
+   "opis": "Połączenie objawów nieuwagi oraz nadruchliwości/impulsywności o nasileniu niezgodnym z etapem rozwoju, obecne w wielu kontekstach (szkoła, dom, praca) i powodujące istotne trudności funkcjonalne.",
+   "icd10Code": "F90.2"
   },
   {
    "category": "Zaburzenia neurorozwojowe",
@@ -55,7 +61,8 @@
    "icd11Name": "Specyficzne zaburzenie uczenia sie",
    "dsm5Code": "315.00 / 315.1 / 315.2",
    "dsm5Name": "Specyficzne zaburzenie uczenia sie (czytanie/matematyka/pisanie)",
-   "opis": "Trwałe trudności w nabywaniu umiejętności szkolnych (czytanie, pisanie lub matematyka) niewspółmierne do wieku i ogólnego poziomu intelektualnego, niewynikające z zaniedbania edukacyjnego."
+   "opis": "Trwałe trudności w nabywaniu umiejętności szkolnych (czytanie, pisanie lub matematyka) niewspółmierne do wieku i ogólnego poziomu intelektualnego, niewynikające z zaniedbania edukacyjnego.",
+   "icd10Code": "F81.9"
   },
   {
    "category": "Zaburzenia neurorozwojowe",
@@ -63,7 +70,8 @@
    "icd11Name": "Zaburzenia rozwojowe mowy lub jezyka",
    "dsm5Code": "315.32 / 315.39",
    "dsm5Name": "Zaburzenie jezykowe / zaburzenie mowy dzwiekowej",
-   "opis": "Trudności w rozwoju rozumienia lub produkcji mowy/języka nieadekwatne do wieku, niewynikające z zaburzeń neurologicznych, sensorycznych czy niepełnosprawności intelektualnej."
+   "opis": "Trudności w rozwoju rozumienia lub produkcji mowy/języka nieadekwatne do wieku, niewynikające z zaburzeń neurologicznych, sensorycznych czy niepełnosprawności intelektualnej.",
+   "icd10Code": "F80.9"
   },
   {
    "category": "Zaburzenia neurorozwojowe",
@@ -71,7 +79,8 @@
    "icd11Name": "Rozwojowe zaburzenie koordynacji ruchowej",
    "dsm5Code": "315.4",
    "dsm5Name": "Rozwojowe zaburzenie koordynacji",
-   "opis": "Istotne opóźnienie w rozwoju koordynacji ruchowej (motoryka duża i mała) w stosunku do wieku, zakłócające codzienne czynności i naukę."
+   "opis": "Istotne opóźnienie w rozwoju koordynacji ruchowej (motoryka duża i mała) w stosunku do wieku, zakłócające codzienne czynności i naukę.",
+   "icd10Code": "F82"
   },
   {
    "category": "Zaburzenia neurorozwojowe",
@@ -79,7 +88,8 @@
    "icd11Name": "Zespol Tourette'a",
    "dsm5Code": "307.23",
    "dsm5Name": "Zaburzenie z tikami Tourette'a",
-   "opis": "Obecność licznych tików ruchowych i przynajmniej jednego tiku wokalnego utrzymujących się dłużej niż rok, o zmiennym nasileniu i lokalizacji."
+   "opis": "Obecność licznych tików ruchowych i przynajmniej jednego tiku wokalnego utrzymujących się dłużej niż rok, o zmiennym nasileniu i lokalizacji.",
+   "icd10Code": "F95.2"
   },
   {
    "category": "Schizofrenia i inne zaburzenia psychotyczne",
@@ -87,7 +97,8 @@
    "icd11Name": "Schizofrenia",
    "dsm5Code": "295.90",
    "dsm5Name": "Schizofrenia",
-   "opis": "Zaburzenie psychotyczne charakteryzujące się urojeniami, omamami, zdezorganizowaną mową/zachowaniem oraz objawami negatywnymi (spłycenie afektu, apatia), utrzymujące się co najmniej miesiąc i istotnie zaburzające funkcjonowanie."
+   "opis": "Zaburzenie psychotyczne charakteryzujące się urojeniami, omamami, zdezorganizowaną mową/zachowaniem oraz objawami negatywnymi (spłycenie afektu, apatia), utrzymujące się co najmniej miesiąc i istotnie zaburzające funkcjonowanie.",
+   "icd10Code": "F20.9"
   },
   {
    "category": "Schizofrenia i inne zaburzenia psychotyczne",
@@ -95,7 +106,8 @@
    "icd11Name": "Zaburzenie schizoafektywne",
    "dsm5Code": "295.70",
    "dsm5Name": "Zaburzenie schizoafektywne",
-   "opis": "Współwystępowanie objawów schizofrenii z wyraźnym epizodem afektywnym (maniakalnym, depresyjnym lub mieszanym) w tym samym okresie choroby, bez wyraźnej przewagi jednego z obrazów."
+   "opis": "Współwystępowanie objawów schizofrenii z wyraźnym epizodem afektywnym (maniakalnym, depresyjnym lub mieszanym) w tym samym okresie choroby, bez wyraźnej przewagi jednego z obrazów.",
+   "icd10Code": "F25.9"
   },
   {
    "category": "Schizofrenia i inne zaburzenia psychotyczne",
@@ -103,7 +115,8 @@
    "icd11Name": "Zaburzenie schizotypowe",
    "dsm5Code": "301.22",
    "dsm5Name": "Osobowosc schizotypowa",
-   "opis": "Trwały wzorzec ekscentryczności myślenia, postrzegania i zachowania, deficytów w bliskich relacjach oraz nietypowych przekonań, przypominający objawy schizofrenii, ale bez pełnoobjawowej psychozy."
+   "opis": "Trwały wzorzec ekscentryczności myślenia, postrzegania i zachowania, deficytów w bliskich relacjach oraz nietypowych przekonań, przypominający objawy schizofrenii, ale bez pełnoobjawowej psychozy.",
+   "icd10Code": "F21"
   },
   {
    "category": "Schizofrenia i inne zaburzenia psychotyczne",
@@ -111,7 +124,8 @@
    "icd11Name": "Ostre i przemijajace zaburzenie psychotyczne",
    "dsm5Code": "298.8",
    "dsm5Name": "Krotkotrwale zaburzenie psychotyczne",
-   "opis": "Nagły początek objawów psychotycznych (urojenia, omamy, zdezorganizowane myślenie) trwających krócej niż trzy miesiące, często w reakcji na silny stres, z pełnym powrotem do zdrowia."
+   "opis": "Nagły początek objawów psychotycznych (urojenia, omamy, zdezorganizowane myślenie) trwających krócej niż trzy miesiące, często w reakcji na silny stres, z pełnym powrotem do zdrowia.",
+   "icd10Code": "F23"
   },
   {
    "category": "Schizofrenia i inne zaburzenia psychotyczne",
@@ -119,7 +133,8 @@
    "icd11Name": "Zaburzenie urojeniowe",
    "dsm5Code": "297.1",
    "dsm5Name": "Zaburzenie urojeniowe",
-   "opis": "Obecność jednego lub więcej trwałych urojeń (np. prześladowczych, somatycznych) bez innych wyraźnych objawów psychotycznych i przy relatywnie zachowanym funkcjonowaniu poza obszarem urojenia."
+   "opis": "Obecność jednego lub więcej trwałych urojeń (np. prześladowczych, somatycznych) bez innych wyraźnych objawów psychotycznych i przy relatywnie zachowanym funkcjonowaniu poza obszarem urojenia.",
+   "icd10Code": "F22"
   },
   {
    "category": "Zaburzenia nastroju",
@@ -127,7 +142,8 @@
    "icd11Name": "Zaburzenie afektywne dwubiegunowe typu I",
    "dsm5Code": "296.4x/296.5x/296.6x",
    "dsm5Name": "Choroba afektywna dwubiegunowa typu I",
-   "opis": "Przebieg choroby z co najmniej jednym epizodem manii (lub mieszanym), zwykle na przemian z epizodami depresyjnymi, powodujący poważne zaburzenie funkcjonowania."
+   "opis": "Przebieg choroby z co najmniej jednym epizodem manii (lub mieszanym), zwykle na przemian z epizodami depresyjnymi, powodujący poważne zaburzenie funkcjonowania.",
+   "icd10Code": "F31.9"
   },
   {
    "category": "Zaburzenia nastroju",
@@ -135,7 +151,8 @@
    "icd11Name": "Zaburzenie afektywne dwubiegunowe typu II",
    "dsm5Code": "296.89",
    "dsm5Name": "Choroba afektywna dwubiegunowa typu II",
-   "opis": "Przebieg z co najmniej jednym epizodem hipomanii oraz co najmniej jednym epizodem dużej depresji, bez pełnoobjawowej manii."
+   "opis": "Przebieg z co najmniej jednym epizodem hipomanii oraz co najmniej jednym epizodem dużej depresji, bez pełnoobjawowej manii.",
+   "icd10Code": "F31.81"
   },
   {
    "category": "Zaburzenia nastroju",
@@ -143,7 +160,8 @@
    "icd11Name": "Cyklotymia",
    "dsm5Code": "301.13",
    "dsm5Name": "Zaburzenie cyklotymiczne",
-   "opis": "Przewlekłe wahania nastroju między łagodną hipomanią a łagodną depresją, utrzymujące się co najmniej dwa lata, niespełniające kryteriów pełnego epizodu."
+   "opis": "Przewlekłe wahania nastroju między łagodną hipomanią a łagodną depresją, utrzymujące się co najmniej dwa lata, niespełniające kryteriów pełnego epizodu.",
+   "icd10Code": "F34.0"
   },
   {
    "category": "Zaburzenia nastroju",
@@ -151,7 +169,8 @@
    "icd11Name": "Pojedynczy epizod depresyjny",
    "dsm5Code": "296.2x",
    "dsm5Name": "Duze zaburzenie depresyjne, epizod pojedynczy",
-   "opis": "Obniżony nastrój, utrata zainteresowań/przyjemności oraz obniżona energia utrzymujące się co najmniej dwa tygodnie, w pierwszym i jedynym dotychczas epizodzie."
+   "opis": "Obniżony nastrój, utrata zainteresowań/przyjemności oraz obniżona energia utrzymujące się co najmniej dwa tygodnie, w pierwszym i jedynym dotychczas epizodzie.",
+   "icd10Code": "F32.9"
   },
   {
    "category": "Zaburzenia nastroju",
@@ -159,7 +178,8 @@
    "icd11Name": "Nawracajace zaburzenie depresyjne",
    "dsm5Code": "296.3x",
    "dsm5Name": "Duze zaburzenie depresyjne, nawracajace",
-   "opis": "Co najmniej dwa epizody depresyjne w historii życia, oddzielone okresami remisji, spełniające kryteria epizodu depresyjnego."
+   "opis": "Co najmniej dwa epizody depresyjne w historii życia, oddzielone okresami remisji, spełniające kryteria epizodu depresyjnego.",
+   "icd10Code": "F33.9"
   },
   {
    "category": "Zaburzenia nastroju",
@@ -167,7 +187,8 @@
    "icd11Name": "Zaburzenie dystymiczne",
    "dsm5Code": "300.4",
    "dsm5Name": "Uporczywe zaburzenie depresyjne (dystymia)",
-   "opis": "Przewlekle obniżony nastrój utrzymujący się co najmniej dwa lata, o mniejszym nasileniu niż epizod depresyjny, ale bardziej uporczywy."
+   "opis": "Przewlekle obniżony nastrój utrzymujący się co najmniej dwa lata, o mniejszym nasileniu niż epizod depresyjny, ale bardziej uporczywy.",
+   "icd10Code": "F34.1"
   },
   {
    "category": "Zaburzenia nastroju",
@@ -175,7 +196,8 @@
    "icd11Name": "Zespol napiecia przedmiesiaczkowego",
    "dsm5Code": "625.4 / 300.xx",
    "dsm5Name": "Przedmiesiaczkowe zaburzenie dysforyczne",
-   "opis": "Cykliczne nawracające objawy nastroju, drażliwości i somatyczne w fazie lutealnej cyklu miesiączkowego, ustępujące wraz z rozpoczęciem miesiączki."
+   "opis": "Cykliczne nawracające objawy nastroju, drażliwości i somatyczne w fazie lutealnej cyklu miesiączkowego, ustępujące wraz z rozpoczęciem miesiączki.",
+   "icd10Code": "F32.81"
   },
   {
    "category": "Zaburzenia lekowe",
@@ -183,7 +205,8 @@
    "icd11Name": "Zaburzenie lekowe uogolnione",
    "dsm5Code": "300.02",
    "dsm5Name": "Zaburzenie lekowe uogolnione (GAD)",
-   "opis": "Przewlekły, nadmierny i trudny do kontrolowania niepokój dotyczący wielu spraw życia codziennego, utrzymujący się co najmniej kilka miesięcy, z towarzyszącym napięciem i objawami somatycznymi."
+   "opis": "Przewlekły, nadmierny i trudny do kontrolowania niepokój dotyczący wielu spraw życia codziennego, utrzymujący się co najmniej kilka miesięcy, z towarzyszącym napięciem i objawami somatycznymi.",
+   "icd10Code": "F41.1"
   },
   {
    "category": "Zaburzenia lekowe",
@@ -191,7 +214,8 @@
    "icd11Name": "Zaburzenie paniczne",
    "dsm5Code": "300.01",
    "dsm5Name": "Zaburzenie paniczne",
-   "opis": "Nawracające, nieoczekiwane napady paniki (nagły, intensywny lęk z objawami somatycznymi) oraz uporczywy lęk przed kolejnym napadem."
+   "opis": "Nawracające, nieoczekiwane napady paniki (nagły, intensywny lęk z objawami somatycznymi) oraz uporczywy lęk przed kolejnym napadem.",
+   "icd10Code": "F41.0"
   },
   {
    "category": "Zaburzenia lekowe",
@@ -199,7 +223,8 @@
    "icd11Name": "Agorafobia",
    "dsm5Code": "300.22",
    "dsm5Name": "Agorafobia",
-   "opis": "Wyraźny i nieproporcjonalny lęk przed znalezieniem się w miejscach lub sytuacjach, z których ucieczka mogłaby być trudna lub w których pomoc mogłaby być niedostępna, prowadzący do unikania."
+   "opis": "Wyraźny i nieproporcjonalny lęk przed znalezieniem się w miejscach lub sytuacjach, z których ucieczka mogłaby być trudna lub w których pomoc mogłaby być niedostępna, prowadzący do unikania.",
+   "icd10Code": "F40.00"
   },
   {
    "category": "Zaburzenia lekowe",
@@ -207,7 +232,8 @@
    "icd11Name": "Fobia specyficzna",
    "dsm5Code": "300.29",
    "dsm5Name": "Specyficzna fobia",
-   "opis": "Wyraźny i utrzymujący się lęk przed konkretnym obiektem lub sytuacją (np. wysokość, zwierzęta, zastrzyki), nieproporcjonalny do realnego zagrożenia."
+   "opis": "Wyraźny i utrzymujący się lęk przed konkretnym obiektem lub sytuacją (np. wysokość, zwierzęta, zastrzyki), nieproporcjonalny do realnego zagrożenia.",
+   "icd10Code": "F40.298"
   },
   {
    "category": "Zaburzenia lekowe",
@@ -215,7 +241,8 @@
    "icd11Name": "Zaburzenie lekowe spoleczne",
    "dsm5Code": "300.23",
    "dsm5Name": "Lek spoleczny (fobia spoleczna)",
-   "opis": "Wyraźny i utrzymujący się lęk przed jedną lub więcej sytuacjami społecznymi, w których osoba może być obserwowana lub oceniana przez innych."
+   "opis": "Wyraźny i utrzymujący się lęk przed jedną lub więcej sytuacjami społecznymi, w których osoba może być obserwowana lub oceniana przez innych.",
+   "icd10Code": "F40.10"
   },
   {
    "category": "Zaburzenia lekowe",
@@ -223,7 +250,8 @@
    "icd11Name": "Zaburzenie lekowe separacyjne",
    "dsm5Code": "309.21",
    "dsm5Name": "Lek separacyjny",
-   "opis": "Nadmierny lęk związany z rozstaniem z osobami, do których dana osoba jest przywiązana, niewspółmierny do etapu rozwojowego."
+   "opis": "Nadmierny lęk związany z rozstaniem z osobami, do których dana osoba jest przywiązana, niewspółmierny do etapu rozwojowego.",
+   "icd10Code": "F93.0"
   },
   {
    "category": "Zaburzenia lekowe",
@@ -231,7 +259,8 @@
    "icd11Name": "Mutyzm wybiorczy",
    "dsm5Code": "312.23",
    "dsm5Name": "Mutyzm wybiorczy",
-   "opis": "Utrzymująca się niezdolność do mówienia w określonych sytuacjach społecznych (np. w szkole) mimo zdolności mówienia w innych okolicznościach."
+   "opis": "Utrzymująca się niezdolność do mówienia w określonych sytuacjach społecznych (np. w szkole) mimo zdolności mówienia w innych okolicznościach.",
+   "icd10Code": "F94.0"
   },
   {
    "category": "Zaburzenia obsesyjno-kompulsyjne i pokrewne",
@@ -239,7 +268,8 @@
    "icd11Name": "Zaburzenie obsesyjno-kompulsyjne",
    "dsm5Code": "300.3",
    "dsm5Name": "OCD",
-   "opis": "Nawracające, natrętne myśli (obsesje) i/lub powtarzane czynności (kompulsje) wykonywane w celu redukcji lęku, zajmujące znaczną ilość czasu i zaburzające funkcjonowanie."
+   "opis": "Nawracające, natrętne myśli (obsesje) i/lub powtarzane czynności (kompulsje) wykonywane w celu redukcji lęku, zajmujące znaczną ilość czasu i zaburzające funkcjonowanie.",
+   "icd10Code": "F42.9"
   },
   {
    "category": "Zaburzenia obsesyjno-kompulsyjne i pokrewne",
@@ -247,7 +277,8 @@
    "icd11Name": "Zaburzenie dysmorfofobiczne ciala",
    "dsm5Code": "300.7",
    "dsm5Name": "Zaburzenie dysmorficzne ciala (BDD)",
-   "opis": "Uporczywe zaabsorbowanie postrzeganymi wadami wyglądu, niedostrzegalnymi lub minimalnymi dla innych, prowadzące do powtarzalnych zachowań kontrolnych lub porównawczych."
+   "opis": "Uporczywe zaabsorbowanie postrzeganymi wadami wyglądu, niedostrzegalnymi lub minimalnymi dla innych, prowadzące do powtarzalnych zachowań kontrolnych lub porównawczych.",
+   "icd10Code": "F45.22"
   },
   {
    "category": "Zaburzenia obsesyjno-kompulsyjne i pokrewne",
@@ -255,7 +286,8 @@
    "icd11Name": "Patologiczne zbieractwo (hoarding)",
    "dsm5Code": "300.3",
    "dsm5Name": "Zaburzenie gromadzenia (hoarding)",
-   "opis": "Trwałe trudności w wyrzucaniu przedmiotów niezależnie od ich realnej wartości, prowadzące do gromadzenia zaśmiecającego przestrzeń życiową i powodującego cierpienie."
+   "opis": "Trwałe trudności w wyrzucaniu przedmiotów niezależnie od ich realnej wartości, prowadzące do gromadzenia zaśmiecającego przestrzeń życiową i powodującego cierpienie.",
+   "icd10Code": "F42.3"
   },
   {
    "category": "Zaburzenia obsesyjno-kompulsyjne i pokrewne",
@@ -263,7 +295,8 @@
    "icd11Name": "Trichotillomania",
    "dsm5Code": "312.39",
    "dsm5Name": "Trichotillomania",
-   "opis": "Nawracające wyrywanie własnych włosów prowadzące do zauważalnej utraty owłosienia, mimo powtarzanych prób zaprzestania."
+   "opis": "Nawracające wyrywanie własnych włosów prowadzące do zauważalnej utraty owłosienia, mimo powtarzanych prób zaprzestania.",
+   "icd10Code": "F63.3"
   },
   {
    "category": "Zaburzenia obsesyjno-kompulsyjne i pokrewne",
@@ -271,7 +304,8 @@
    "icd11Name": "Zaburzenie z drapaniem skory (excoriation)",
    "dsm5Code": "698.4 / 312.39",
    "dsm5Name": "Zaburzenie z drapaniem skory",
-   "opis": "Nawracające drapanie skóry prowadzące do uszkodzeń tkanki, mimo powtarzanych prób zaprzestania."
+   "opis": "Nawracające drapanie skóry prowadzące do uszkodzeń tkanki, mimo powtarzanych prób zaprzestania.",
+   "icd10Code": "F42.4"
   },
   {
    "category": "Zaburzenia zwiazane bezposrednio ze stresem",
@@ -279,7 +313,8 @@
    "icd11Name": "Zespol stresu pourazowego (PTSD)",
    "dsm5Code": "309.81",
    "dsm5Name": "PTSD",
-   "opis": "Zespół objawów po narażeniu na skrajnie zagrażające lub przerażające wydarzenie: ponowne przeżywanie traumy, unikanie przypomnień oraz utrzymujące się poczucie zagrożenia."
+   "opis": "Zespół objawów po narażeniu na skrajnie zagrażające lub przerażające wydarzenie: ponowne przeżywanie traumy, unikanie przypomnień oraz utrzymujące się poczucie zagrożenia.",
+   "icd10Code": "F43.10"
   },
   {
    "category": "Zaburzenia zwiazane bezposrednio ze stresem",
@@ -287,7 +322,8 @@
    "icd11Name": "Zlozony zespol stresu pourazowego (C-PTSD)",
    "dsm5Code": "brak odpowiednika (DSM-5 nie wyodrebnia C-PTSD)",
    "dsm5Name": "Najblizej: PTSD (309.81), czasem z cechami dysocjacyjnymi",
-   "opis": "Zespół objawów PTSD rozszerzony o trwałe trudności w regulacji emocji, negatywne poczucie własnej wartości oraz trudności w relacjach interpersonalnych, zwykle po długotrwałej lub powtarzającej się traumie."
+   "opis": "Zespół objawów PTSD rozszerzony o trwałe trudności w regulacji emocji, negatywne poczucie własnej wartości oraz trudności w relacjach interpersonalnych, zwykle po długotrwałej lub powtarzającej się traumie.",
+   "icd10Code": "F43.10"
   },
   {
    "category": "Zaburzenia zwiazane bezposrednio ze stresem",
@@ -295,7 +331,8 @@
    "icd11Name": "Przedluzona reakcja zaloby",
    "dsm5Code": "V62.82 / 350 (kryteria dodatkowe w DSM-5-TR)",
    "dsm5Name": "Przedluzone zaburzenie zaloby",
-   "opis": "Intensywna, długotrwała tęsknota za zmarłym i zaabsorbowanie stratą utrzymujące się znacznie dłużej niż oczekiwane kulturowo (zwykle powyżej 6 miesięcy), zaburzające funkcjonowanie."
+   "opis": "Intensywna, długotrwała tęsknota za zmarłym i zaabsorbowanie stratą utrzymujące się znacznie dłużej niż oczekiwane kulturowo (zwykle powyżej 6 miesięcy), zaburzające funkcjonowanie.",
+   "icd10Code": "F43.81"
   },
   {
    "category": "Zaburzenia zwiazane bezposrednio ze stresem",
@@ -303,7 +340,8 @@
    "icd11Name": "Zaburzenie adaptacyjne",
    "dsm5Code": "309.xx",
    "dsm5Name": "Zaburzenie adaptacyjne",
-   "opis": "Nadmierna reakcja emocjonalna lub behawioralna na możliwy do zidentyfikowania stresor, nieproporcjonalna do jego nasilenia, pojawiająca się w ciągu miesiąca od zdarzenia."
+   "opis": "Nadmierna reakcja emocjonalna lub behawioralna na możliwy do zidentyfikowania stresor, nieproporcjonalna do jego nasilenia, pojawiająca się w ciągu miesiąca od zdarzenia.",
+   "icd10Code": "F43.20"
   },
   {
    "category": "Zaburzenia zwiazane bezposrednio ze stresem",
@@ -311,7 +349,8 @@
    "icd11Name": "Reaktywne zaburzenie przywiazania",
    "dsm5Code": "313.89",
    "dsm5Name": "Reaktywne zaburzenie przywiazania",
-   "opis": "Trwały wzorzec zahamowanego, emocjonalnie wycofanego zachowania wobec opiekunów u dziecka, które doświadczyło poważnego zaniedbania opiekuńczego."
+   "opis": "Trwały wzorzec zahamowanego, emocjonalnie wycofanego zachowania wobec opiekunów u dziecka, które doświadczyło poważnego zaniedbania opiekuńczego.",
+   "icd10Code": "F94.1"
   },
   {
    "category": "Zaburzenia zwiazane bezposrednio ze stresem",
@@ -319,7 +358,8 @@
    "icd11Name": "Zaburzenie rozhamowanego zaangazowania spolecznego",
    "dsm5Code": "313.89",
    "dsm5Name": "Zaburzenie rozhamowanego zaangazowania spolecznego",
-   "opis": "Wzorzec nadmiernie zażyłego, mało wybiórczego zachowania wobec obcych dorosłych u dziecka z historią poważnego zaniedbania opiekuńczego."
+   "opis": "Wzorzec nadmiernie zażyłego, mało wybiórczego zachowania wobec obcych dorosłych u dziecka z historią poważnego zaniedbania opiekuńczego.",
+   "icd10Code": "F94.2"
   },
   {
    "category": "Zaburzenia dysocjacyjne",
@@ -327,7 +367,8 @@
    "icd11Name": "Dysocjacyjne zaburzenie neurologicznych objawow",
    "dsm5Code": "300.11",
    "dsm5Name": "Zaburzenie konwersyjne",
-   "opis": "Objawy neurologiczne (np. paraliż, drgawki, utrata czucia) niezgodne z żadną chorobą neurologiczną ani inną chorobą somatyczną, powiązane ze stresem psychicznym."
+   "opis": "Objawy neurologiczne (np. paraliż, drgawki, utrata czucia) niezgodne z żadną chorobą neurologiczną ani inną chorobą somatyczną, powiązane ze stresem psychicznym.",
+   "icd10Code": "F44.9"
   },
   {
    "category": "Zaburzenia dysocjacyjne",
@@ -335,7 +376,8 @@
    "icd11Name": "Amnezja dysocjacyjna",
    "dsm5Code": "300.12",
    "dsm5Name": "Amnezja dysocjacyjna",
-   "opis": "Niezdolność przypomnienia sobie ważnych informacji autobiograficznych, zwykle o charakterze traumatycznym lub stresującym, zbyt rozległa, by wyjaśnić ją zwykłym zapominaniem."
+   "opis": "Niezdolność przypomnienia sobie ważnych informacji autobiograficznych, zwykle o charakterze traumatycznym lub stresującym, zbyt rozległa, by wyjaśnić ją zwykłym zapominaniem.",
+   "icd10Code": "F44.0"
   },
   {
    "category": "Zaburzenia dysocjacyjne",
@@ -343,7 +385,8 @@
    "icd11Name": "Trans i zaburzenie opetania",
    "dsm5Code": "300.15",
    "dsm5Name": "Inne okreslone zaburzenie dysocjacyjne",
-   "opis": "Zmienione stany świadomości z utratą zwykłego poczucia tożsamości osobistej, zastąpione przez tożsamość alternatywną (trans) lub przypisywane wpływowi zewnętrznej siły (opętanie), w kontekście kulturowo nieakceptowanym."
+   "opis": "Zmienione stany świadomości z utratą zwykłego poczucia tożsamości osobistej, zastąpione przez tożsamość alternatywną (trans) lub przypisywane wpływowi zewnętrznej siły (opętanie), w kontekście kulturowo nieakceptowanym.",
+   "icd10Code": "F44.89"
   },
   {
    "category": "Zaburzenia dysocjacyjne",
@@ -351,7 +394,8 @@
    "icd11Name": "Dysocjacyjne zaburzenie tozsamosci",
    "dsm5Code": "300.14",
    "dsm5Name": "Dysocjacyjne zaburzenie tozsamosci (DID)",
-   "opis": "Obecność dwóch lub więcej odrębnych tożsamości/stanów osobowości na przemian kontrolujących zachowanie danej osoby, wraz z towarzyszącymi lukami pamięciowymi."
+   "opis": "Obecność dwóch lub więcej odrębnych tożsamości/stanów osobowości na przemian kontrolujących zachowanie danej osoby, wraz z towarzyszącymi lukami pamięciowymi.",
+   "icd10Code": "F44.81"
   },
   {
    "category": "Zaburzenia dysocjacyjne",
@@ -359,7 +403,8 @@
    "icd11Name": "Czesciowe dysocjacyjne zaburzenie tozsamosci",
    "dsm5Code": "300.15",
    "dsm5Name": "Inne okreslone zaburzenie dysocjacyjne",
-   "opis": "Częściowa forma dysocjacyjnego zaburzenia tożsamości, w której alternatywne stany osobowości nie przejmują w pełni kontroli nad zachowaniem."
+   "opis": "Częściowa forma dysocjacyjnego zaburzenia tożsamości, w której alternatywne stany osobowości nie przejmują w pełni kontroli nad zachowaniem.",
+   "icd10Code": "F44.81"
   },
   {
    "category": "Zaburzenia dysocjacyjne",
@@ -367,7 +412,8 @@
    "icd11Name": "Zaburzenie depersonalizacji-derealizacji",
    "dsm5Code": "300.6",
    "dsm5Name": "Zaburzenie depersonalizacji/derealizacji",
-   "opis": "Uporczywe lub nawracające doświadczenia poczucia bycia oderwanym od własnego ciała, myśli lub otoczenia (derealizacja), przy zachowanym poczuciu rzeczywistości tego stanu."
+   "opis": "Uporczywe lub nawracające doświadczenia poczucia bycia oderwanym od własnego ciała, myśli lub otoczenia (derealizacja), przy zachowanym poczuciu rzeczywistości tego stanu.",
+   "icd10Code": "F48.1"
   },
   {
    "category": "Zaburzenia z objawami somatycznymi",
@@ -375,7 +421,8 @@
    "icd11Name": "Zaburzenie z objawami somatycznymi",
    "dsm5Code": "300.82",
    "dsm5Name": "Zaburzenie z objawami somatycznymi",
-   "opis": "Uporczywe, uciążliwe objawy somatyczne powodujące znaczny niepokój i nadmierne, nieproporcjonalne myśli, uczucia i zachowania związane z tymi objawami."
+   "opis": "Uporczywe, uciążliwe objawy somatyczne powodujące znaczny niepokój i nadmierne, nieproporcjonalne myśli, uczucia i zachowania związane z tymi objawami.",
+   "icd10Code": "F45.1"
   },
   {
    "category": "Zaburzenia z objawami somatycznymi",
@@ -383,7 +430,8 @@
    "icd11Name": "Lek przed choroba (hipochondria)",
    "dsm5Code": "300.7",
    "dsm5Name": "Zaburzenie lekowe dotyczace choroby",
-   "opis": "Uporczywe zaabsorbowanie lękiem przed poważną, nierozpoznaną chorobą, mimo minimalnych lub braku objawów somatycznych i mimo uspokajających wyników badań."
+   "opis": "Uporczywe zaabsorbowanie lękiem przed poważną, nierozpoznaną chorobą, mimo minimalnych lub braku objawów somatycznych i mimo uspokajających wyników badań.",
+   "icd10Code": "F45.21"
   },
   {
    "category": "Zaburzenia odzywiania",
@@ -391,7 +439,8 @@
    "icd11Name": "Jadlowstret psychiczny (anoreksja)",
    "dsm5Code": "307.1",
    "dsm5Name": "Anoreksja",
-   "opis": "Celowe ograniczanie przyjmowania pokarmów prowadzące do znacząco niskiej masy ciała, z lękiem przed przybraniem na wadze i zaburzonym postrzeganiem własnego ciała."
+   "opis": "Celowe ograniczanie przyjmowania pokarmów prowadzące do znacząco niskiej masy ciała, z lękiem przed przybraniem na wadze i zaburzonym postrzeganiem własnego ciała.",
+   "icd10Code": "F50.00"
   },
   {
    "category": "Zaburzenia odzywiania",
@@ -399,7 +448,8 @@
    "icd11Name": "Bulimia psychiczna",
    "dsm5Code": "307.51",
    "dsm5Name": "Bulimia",
-   "opis": "Powtarzające się epizody objadania się z poczuciem utraty kontroli, po których następują zachowania kompensacyjne (np. wymioty, nadużywanie środków przeczyszczających)."
+   "opis": "Powtarzające się epizody objadania się z poczuciem utraty kontroli, po których następują zachowania kompensacyjne (np. wymioty, nadużywanie środków przeczyszczających).",
+   "icd10Code": "F50.20"
   },
   {
    "category": "Zaburzenia odzywiania",
@@ -407,7 +457,8 @@
    "icd11Name": "Zaburzenie z napadami objadania sie",
    "dsm5Code": "307.51",
    "dsm5Name": "Zaburzenie z napadami objadania sie (BED)",
-   "opis": "Powtarzające się epizody objadania się z poczuciem utraty kontroli, bez regularnych zachowań kompensacyjnych, powodujące istotne cierpienie."
+   "opis": "Powtarzające się epizody objadania się z poczuciem utraty kontroli, bez regularnych zachowań kompensacyjnych, powodujące istotne cierpienie.",
+   "icd10Code": "F50.810"
   },
   {
    "category": "Zaburzenia odzywiania",
@@ -415,7 +466,8 @@
    "icd11Name": "Zaburzenie unikania/ograniczania przyjmowania pokarmow (ARFID)",
    "dsm5Code": "307.59",
    "dsm5Name": "ARFID",
-   "opis": "Trwałe unikanie lub ograniczanie przyjmowania pokarmów prowadzące do niedoborów żywieniowych lub energetycznych, niezwiązane z zaburzonym postrzeganiem masy ciała."
+   "opis": "Trwałe unikanie lub ograniczanie przyjmowania pokarmów prowadzące do niedoborów żywieniowych lub energetycznych, niezwiązane z zaburzonym postrzeganiem masy ciała.",
+   "icd10Code": "F50.82"
   },
   {
    "category": "Zaburzenia odzywiania",
@@ -423,7 +475,8 @@
    "icd11Name": "Pica",
    "dsm5Code": "307.52",
    "dsm5Name": "Pica",
-   "opis": "Uporczywe spożywanie substancji niebędących pokarmem (np. ziemia, kreda) niewspółmierne do etapu rozwojowego."
+   "opis": "Uporczywe spożywanie substancji niebędących pokarmem (np. ziemia, kreda) niewspółmierne do etapu rozwojowego.",
+   "icd10Code": "F98.3"
   },
   {
    "category": "Zaburzenia odzywiania",
@@ -431,7 +484,8 @@
    "icd11Name": "Zaburzenie ruminacyjno-regurgitacyjne",
    "dsm5Code": "307.53",
    "dsm5Name": "Zaburzenie przezuwania",
-   "opis": "Powtarzające się cofanie pokarmu z żołądka do jamy ustnej (przeżuwanie), ponowne żucie i połykanie lub wypluwanie, niezwiązane z chorobą somatyczną."
+   "opis": "Powtarzające się cofanie pokarmu z żołądka do jamy ustnej (przeżuwanie), ponowne żucie i połykanie lub wypluwanie, niezwiązane z chorobą somatyczną.",
+   "icd10Code": "F98.21"
   },
   {
    "category": "Zaburzenia wydalania",
@@ -439,7 +493,8 @@
    "icd11Name": "Moczenie mimowolne (enureza)",
    "dsm5Code": "307.6",
    "dsm5Name": "Enureza",
-   "opis": "Powtarzające się mimowolne oddawanie moczu po wieku, w którym oczekuje się kontroli nad pęcherzem."
+   "opis": "Powtarzające się mimowolne oddawanie moczu po wieku, w którym oczekuje się kontroli nad pęcherzem.",
+   "icd10Code": "F98.0"
   },
   {
    "category": "Zaburzenia wydalania",
@@ -447,7 +502,8 @@
    "icd11Name": "Zanieczyszczanie sie kalem (enkopreza)",
    "dsm5Code": "307.7",
    "dsm5Name": "Enkopreza",
-   "opis": "Powtarzające się oddawanie stolca w nieodpowiednich miejscach po wieku, w którym oczekuje się kontroli nad wypróżnieniami."
+   "opis": "Powtarzające się oddawanie stolca w nieodpowiednich miejscach po wieku, w którym oczekuje się kontroli nad wypróżnieniami.",
+   "icd10Code": "F98.1"
   },
   {
    "category": "Zaburzenia snu i czuwania",
@@ -455,7 +511,8 @@
    "icd11Name": "Bezsennosc przewlekla",
    "dsm5Code": "780.52 / 307.42",
    "dsm5Name": "Bezsennosc",
-   "opis": "Trudności w zasypianiu lub utrzymaniu snu, utrzymujące się co najmniej trzy miesiące, powodujące niezadowolenie ze snu i pogorszenie funkcjonowania w ciągu dnia."
+   "opis": "Trudności w zasypianiu lub utrzymaniu snu, utrzymujące się co najmniej trzy miesiące, powodujące niezadowolenie ze snu i pogorszenie funkcjonowania w ciągu dnia.",
+   "icd10Code": "F51.01"
   },
   {
    "category": "Zaburzenia snu i czuwania",
@@ -463,7 +520,8 @@
    "icd11Name": "Hipersomnia",
    "dsm5Code": "780.54 / 307.44",
    "dsm5Name": "Hipersomnia",
-   "opis": "Nadmierna senność w ciągu dnia lub wydłużony czas snu nocnego, niewyjaśnione innymi zaburzeniami snu."
+   "opis": "Nadmierna senność w ciągu dnia lub wydłużony czas snu nocnego, niewyjaśnione innymi zaburzeniami snu.",
+   "icd10Code": "F51.11"
   },
   {
    "category": "Zaburzenia snu i czuwania",
@@ -471,7 +529,8 @@
    "icd11Name": "Narkolepsja",
    "dsm5Code": "347.00",
    "dsm5Name": "Narkolepsja",
-   "opis": "Nadmierna senność w ciągu dnia z epizodami nagłego zaśnięcia, często z katapleksją (nagła utrata napięcia mięśniowego wywołana emocjami)."
+   "opis": "Nadmierna senność w ciągu dnia z epizodami nagłego zaśnięcia, często z katapleksją (nagła utrata napięcia mięśniowego wywołana emocjami).",
+   "icd10Code": "G47.419"
   },
   {
    "category": "Zaburzenia snu i czuwania",
@@ -479,7 +538,8 @@
    "icd11Name": "Lunatykowanie (somnambulizm)",
    "dsm5Code": "307.46",
    "dsm5Name": "Zaburzenie z lekami nocnymi / somnambulizm",
-   "opis": "Powtarzające się epizody wstawania z łóżka i chodzenia podczas snu głębokiego, z ograniczoną świadomością i pamięcią zdarzenia."
+   "opis": "Powtarzające się epizody wstawania z łóżka i chodzenia podczas snu głębokiego, z ograniczoną świadomością i pamięcią zdarzenia.",
+   "icd10Code": "F51.3"
   },
   {
    "category": "Zaburzenia snu i czuwania",
@@ -487,7 +547,8 @@
    "icd11Name": "Zaburzenie z koszmarami sennymi",
    "dsm5Code": "307.47",
    "dsm5Name": "Zaburzenie z koszmarami sennymi",
-   "opis": "Powtarzające się przebudzenia z żywymi, przerażającymi snami, po których następuje pełne wybudzenie i pamięć treści snu."
+   "opis": "Powtarzające się przebudzenia z żywymi, przerażającymi snami, po których następuje pełne wybudzenie i pamięć treści snu.",
+   "icd10Code": "F51.5"
   },
   {
    "category": "Dysfunkcje seksualne",
@@ -495,7 +556,8 @@
    "icd11Name": "Zaburzenia erekcji",
    "dsm5Code": "302.72",
    "dsm5Name": "Zaburzenie erekcji",
-   "opis": "Utrzymująca się niezdolność do osiągnięcia lub utrzymania erekcji wystarczającej do satysfakcjonującej aktywności seksualnej."
+   "opis": "Utrzymująca się niezdolność do osiągnięcia lub utrzymania erekcji wystarczającej do satysfakcjonującej aktywności seksualnej.",
+   "icd10Code": "F52.21"
   },
   {
    "category": "Dysfunkcje seksualne",
@@ -503,7 +565,8 @@
    "icd11Name": "Hipoaktywne zaburzenie pozadania seksualnego",
    "dsm5Code": "302.71 / 302.72",
    "dsm5Name": "Zaburzenie zainteresowania/pobudzenia seksualnego",
-   "opis": "Utrzymujący się brak lub znaczne obniżenie zainteresowania aktywnością seksualną i/lub pobudzenia seksualnego."
+   "opis": "Utrzymujący się brak lub znaczne obniżenie zainteresowania aktywnością seksualną i/lub pobudzenia seksualnego.",
+   "icd10Code": "F52.0"
   },
   {
    "category": "Dysfunkcje seksualne",
@@ -511,7 +574,8 @@
    "icd11Name": "Przedwczesny wytrysk",
    "dsm5Code": "302.75",
    "dsm5Name": "Przedwczesny wytrysk",
-   "opis": "Uporczywy wzorzec wytrysku następującego bardzo szybko po rozpoczęciu stosunku, zanim osoba tego chce."
+   "opis": "Uporczywy wzorzec wytrysku następującego bardzo szybko po rozpoczęciu stosunku, zanim osoba tego chce.",
+   "icd10Code": "F52.4"
   },
   {
    "category": "Dysfunkcje seksualne",
@@ -519,7 +583,8 @@
    "icd11Name": "Niezgodnosc plciowa (dysforia plciowa)",
    "dsm5Code": "302.85 / 302.6",
    "dsm5Name": "Dysforia plciowa",
-   "opis": "Wyraźna i utrzymująca się niezgodność pomiędzy odczuwaną tożsamością płciową a przypisaną płcią, powodująca dyskomfort lub cierpienie."
+   "opis": "Wyraźna i utrzymująca się niezgodność pomiędzy odczuwaną tożsamością płciową a przypisaną płcią, powodująca dyskomfort lub cierpienie.",
+   "icd10Code": "F64.9"
   },
   {
    "category": "Zaburzenia zachowania i kontroli impulsow",
@@ -527,7 +592,8 @@
    "icd11Name": "Zaburzenie opozycyjno-buntownicze",
    "dsm5Code": "313.81",
    "dsm5Name": "ODD",
-   "opis": "Utrzymujący się wzorzec buntowniczego, nieposłusznego i wrogiego zachowania wobec autorytetów, wykraczający poza typowe zachowania rozwojowe."
+   "opis": "Utrzymujący się wzorzec buntowniczego, nieposłusznego i wrogiego zachowania wobec autorytetów, wykraczający poza typowe zachowania rozwojowe.",
+   "icd10Code": "F91.3"
   },
   {
    "category": "Zaburzenia zachowania i kontroli impulsow",
@@ -535,7 +601,8 @@
    "icd11Name": "Zaburzenie zachowania dyssocjalnego",
    "dsm5Code": "312.xx",
    "dsm5Name": "Zaburzenie zachowania (conduct disorder)",
-   "opis": "Powtarzający się i utrzymujący się wzorzec zachowań naruszających podstawowe prawa innych osób lub normy społeczne odpowiednie do wieku (agresja, niszczenie mienia, oszustwa, poważne naruszenia zasad)."
+   "opis": "Powtarzający się i utrzymujący się wzorzec zachowań naruszających podstawowe prawa innych osób lub normy społeczne odpowiednie do wieku (agresja, niszczenie mienia, oszustwa, poważne naruszenia zasad).",
+   "icd10Code": "F91.9"
   },
   {
    "category": "Zaburzenia zachowania i kontroli impulsow",
@@ -543,7 +610,8 @@
    "icd11Name": "Piromania",
    "dsm5Code": "312.33",
    "dsm5Name": "Piromania",
-   "opis": "Powtarzające się celowe podpalanie z napięciem przed czynem i ulgą lub satysfakcją po nim, bez motywacji materialnej czy ideologicznej."
+   "opis": "Powtarzające się celowe podpalanie z napięciem przed czynem i ulgą lub satysfakcją po nim, bez motywacji materialnej czy ideologicznej.",
+   "icd10Code": "F63.1"
   },
   {
    "category": "Zaburzenia zachowania i kontroli impulsow",
@@ -551,7 +619,8 @@
    "icd11Name": "Kleptomania",
    "dsm5Code": "312.32",
    "dsm5Name": "Kleptomania",
-   "opis": "Nawracająca niezdolność do powstrzymania się od kradzieży przedmiotów niepotrzebnych do użytku osobistego, z napięciem przed czynem i ulgą po nim."
+   "opis": "Nawracająca niezdolność do powstrzymania się od kradzieży przedmiotów niepotrzebnych do użytku osobistego, z napięciem przed czynem i ulgą po nim.",
+   "icd10Code": "F63.2"
   },
   {
    "category": "Zaburzenia zachowania i kontroli impulsow",
@@ -559,7 +628,8 @@
    "icd11Name": "Przerywane zaburzenie eksplozywne (IED)",
    "dsm5Code": "312.34",
    "dsm5Name": "Przerywane zaburzenie eksplozywne",
-   "opis": "Powtarzające się epizody niekontrolowanych wybuchów agresji słownej lub fizycznej, nieproporcjonalne do prowokacji."
+   "opis": "Powtarzające się epizody niekontrolowanych wybuchów agresji słownej lub fizycznej, nieproporcjonalne do prowokacji.",
+   "icd10Code": "F63.81"
   },
   {
    "category": "Zaburzenia zwiazane z uzywaniem substancji i uzaleznienia",
@@ -567,7 +637,8 @@
    "icd11Name": "Zaburzenie uzywania alkoholu",
    "dsm5Code": "303.90 / 305.00",
    "dsm5Name": "Zaburzenie uzywania alkoholu",
-   "opis": "Wzorzec używania alkoholu prowadzący do powtarzających się problemów zdrowotnych, społecznych lub zawodowych oraz utraty kontroli nad piciem."
+   "opis": "Wzorzec używania alkoholu prowadzący do powtarzających się problemów zdrowotnych, społecznych lub zawodowych oraz utraty kontroli nad piciem.",
+   "icd10Code": "F10.20"
   },
   {
    "category": "Zaburzenia zwiazane z uzywaniem substancji i uzaleznienia",
@@ -575,7 +646,8 @@
    "icd11Name": "Zaburzenie uzywania kanabinoli",
    "dsm5Code": "304.30 / 305.20",
    "dsm5Name": "Zaburzenie uzywania konopi",
-   "opis": "Wzorzec używania konopi indyjskich prowadzący do powtarzających się problemów funkcjonalnych oraz utraty kontroli nad używaniem."
+   "opis": "Wzorzec używania konopi indyjskich prowadzący do powtarzających się problemów funkcjonalnych oraz utraty kontroli nad używaniem.",
+   "icd10Code": "F12.20"
   },
   {
    "category": "Zaburzenia zwiazane z uzywaniem substancji i uzaleznienia",
@@ -583,7 +655,8 @@
    "icd11Name": "Zaburzenie uzywania opioidow",
    "dsm5Code": "304.00 / 305.50",
    "dsm5Name": "Zaburzenie uzywania opioidow",
-   "opis": "Wzorzec używania opioidów prowadzący do tolerancji, objawów odstawiennych i utraty kontroli nad używaniem."
+   "opis": "Wzorzec używania opioidów prowadzący do tolerancji, objawów odstawiennych i utraty kontroli nad używaniem.",
+   "icd10Code": "F11.20"
   },
   {
    "category": "Zaburzenia zwiazane z uzywaniem substancji i uzaleznienia",
@@ -591,7 +664,8 @@
    "icd11Name": "Zaburzenie uzywania substancji stymulujacych (w tym amfetaminy)",
    "dsm5Code": "304.40 / 305.70",
    "dsm5Name": "Zaburzenie uzywania substancji stymulujacych",
-   "opis": "Wzorzec używania substancji stymulujących (amfetamina i pochodne) prowadzący do powtarzających się problemów funkcjonalnych i utraty kontroli."
+   "opis": "Wzorzec używania substancji stymulujących (amfetamina i pochodne) prowadzący do powtarzających się problemów funkcjonalnych i utraty kontroli.",
+   "icd10Code": "F15.20"
   },
   {
    "category": "Zaburzenia zwiazane z uzywaniem substancji i uzaleznienia",
@@ -599,7 +673,8 @@
    "icd11Name": "Zaburzenie uzywania kokainy",
    "dsm5Code": "304.20 / 305.60",
    "dsm5Name": "Zaburzenie uzywania kokainy",
-   "opis": "Wzorzec używania kokainy prowadzący do powtarzających się problemów funkcjonalnych i utraty kontroli nad używaniem."
+   "opis": "Wzorzec używania kokainy prowadzący do powtarzających się problemów funkcjonalnych i utraty kontroli nad używaniem.",
+   "icd10Code": "F14.20"
   },
   {
    "category": "Zaburzenia zwiazane z uzywaniem substancji i uzaleznienia",
@@ -607,7 +682,8 @@
    "icd11Name": "Zaburzenie uzywania nikotyny",
    "dsm5Code": "305.1",
    "dsm5Name": "Zaburzenie uzywania tytoniu",
-   "opis": "Wzorzec używania nikotyny (najczęściej palenie tytoniu) prowadzący do silnego przymusu używania i trudności w zaprzestaniu mimo szkodliwych konsekwencji."
+   "opis": "Wzorzec używania nikotyny (najczęściej palenie tytoniu) prowadzący do silnego przymusu używania i trudności w zaprzestaniu mimo szkodliwych konsekwencji.",
+   "icd10Code": "F17.200"
   },
   {
    "category": "Zaburzenia zwiazane z uzywaniem substancji i uzaleznienia",
@@ -615,7 +691,8 @@
    "icd11Name": "Zaburzenie hazardowe (uzaleznienie od hazardu)",
    "dsm5Code": "312.31",
    "dsm5Name": "Zaburzenie hazardowe",
-   "opis": "Utrzymujący się wzorzec powtarzającego się zaangażowania w hazard mimo znaczących negatywnych konsekwencji finansowych, zawodowych lub relacyjnych."
+   "opis": "Utrzymujący się wzorzec powtarzającego się zaangażowania w hazard mimo znaczących negatywnych konsekwencji finansowych, zawodowych lub relacyjnych.",
+   "icd10Code": "F63.0"
   },
   {
    "category": "Zaburzenia zwiazane z uzywaniem substancji i uzaleznienia",
@@ -623,7 +700,8 @@
    "icd11Name": "Zaburzenie zwiazane z grami (gaming disorder)",
    "dsm5Code": "brak formalnego kodu (stan wymagajacy dalszych badan)",
    "dsm5Name": "Internet Gaming Disorder (sekcja III DSM-5)",
-   "opis": "Utrzymujący się wzorzec ciągłego lub epizodycznego grania w gry cyfrowe skutkujący upośledzeniem kontroli i istotnym pogorszeniem funkcjonowania."
+   "opis": "Utrzymujący się wzorzec ciągłego lub epizodycznego grania w gry cyfrowe skutkujący upośledzeniem kontroli i istotnym pogorszeniem funkcjonowania.",
+   "icd10Code": null
   },
   {
    "category": "Zaburzenia osobowosci",
@@ -631,7 +709,8 @@
    "icd11Name": "Zaburzenie osobowosci (ogolne, ICD-11 opisuje wymiarowo)",
    "dsm5Code": "301.9 / kategorie specyficzne",
    "dsm5Name": "Zaburzenie osobowosci, nieokreslone / typy specyficzne ponizej",
-   "opis": "Trwały wzorzec funkcjonowania wewnętrznego przeżywania i zachowania odbiegający od oczekiwań kulturowych, sztywny i obejmujący wiele obszarów, wywołujący cierpienie lub upośledzenie funkcjonowania; ICD-11 opisuje nasilenie i domeny cech zamiast odrębnych kategorii."
+   "opis": "Trwały wzorzec funkcjonowania wewnętrznego przeżywania i zachowania odbiegający od oczekiwań kulturowych, sztywny i obejmujący wiele obszarów, wywołujący cierpienie lub upośledzenie funkcjonowania; ICD-11 opisuje nasilenie i domeny cech zamiast odrębnych kategorii.",
+   "icd10Code": "F60.9"
   },
   {
    "category": "Zaburzenia osobowosci",
@@ -639,7 +718,8 @@
    "icd11Name": "Zaburzenie osobowosci z wzorem 'borderline' (pogranicznym)",
    "dsm5Code": "301.83",
    "dsm5Name": "Osobowosc z pogranicza (borderline)",
-   "opis": "Wzorzec cech osobowości obejmujący niestabilność obrazu siebie, relacji interpersonalnych i emocji, impulsywność oraz lęk przed odrzuceniem."
+   "opis": "Wzorzec cech osobowości obejmujący niestabilność obrazu siebie, relacji interpersonalnych i emocji, impulsywność oraz lęk przed odrzuceniem.",
+   "icd10Code": "F60.3"
   },
   {
    "category": "Zaburzenia osobowosci",
@@ -647,7 +727,8 @@
    "icd11Name": "Zaburzenie osobowosci z wzorem dyssocjalnym",
    "dsm5Code": "301.7",
    "dsm5Name": "Osobowosc antyspoleczna",
-   "opis": "Wzorzec cech osobowości obejmujący lekceważenie praw innych osób, impulsywność, brak empatii i skłonność do zachowań aspołecznych."
+   "opis": "Wzorzec cech osobowości obejmujący lekceważenie praw innych osób, impulsywność, brak empatii i skłonność do zachowań aspołecznych.",
+   "icd10Code": "F60.2"
   },
   {
    "category": "Zaburzenia osobowosci",
@@ -655,7 +736,8 @@
    "icd11Name": "Zaburzenie osobowosci z wzorem lekliwym (unikajacym)",
    "dsm5Code": "301.82",
    "dsm5Name": "Osobowosc unikajaca",
-   "opis": "Wzorzec cech osobowości obejmujący nadwrażliwość na ocenę, poczucie nieadekwatności społecznej i unikanie kontaktów z obawy przed odrzuceniem."
+   "opis": "Wzorzec cech osobowości obejmujący nadwrażliwość na ocenę, poczucie nieadekwatności społecznej i unikanie kontaktów z obawy przed odrzuceniem.",
+   "icd10Code": "F60.6"
   },
   {
    "category": "Zaburzenia osobowosci",
@@ -663,7 +745,8 @@
    "icd11Name": "Zaburzenie osobowosci z wzorem anankastycznym (obsesyjno-kompulsyjnym)",
    "dsm5Code": "301.4",
    "dsm5Name": "Osobowosc obsesyjno-kompulsyjna",
-   "opis": "Wzorzec cech osobowości obejmujący perfekcjonizm, sztywność, nadmierną kontrolę i zaabsorbowanie porządkiem kosztem elastyczności."
+   "opis": "Wzorzec cech osobowości obejmujący perfekcjonizm, sztywność, nadmierną kontrolę i zaabsorbowanie porządkiem kosztem elastyczności.",
+   "icd10Code": "F60.5"
   },
   {
    "category": "Zaburzenia osobowosci",
@@ -671,7 +754,8 @@
    "icd11Name": "Wyodrebniona zmiana wzoru osobowosci (po katastrofie/chorobie)",
    "dsm5Code": "310.1",
    "dsm5Name": "Zmiana osobowosci spowodowana innym stanem chorobowym",
-   "opis": "Trwała zmiana wzorca osobowości po ekstremalnym, przedłużającym się stresie (np. katastrofa, poważna choroba, tortury), utrzymująca się co najmniej dwa lata."
+   "opis": "Trwała zmiana wzorca osobowości po ekstremalnym, przedłużającym się stresie (np. katastrofa, poważna choroba, tortury), utrzymująca się co najmniej dwa lata.",
+   "icd10Code": "F07.0"
   },
   {
    "category": "Zaburzenia parafiliczne",
@@ -679,7 +763,8 @@
    "icd11Name": "Zaburzenie ekshibicjonistyczne",
    "dsm5Code": "302.4",
    "dsm5Name": "Ekshibicjonizm",
-   "opis": "Nawracające, intensywne pobudzenie seksualne związane z eksponowaniem narządów płciowych nieznajomym osobom, realizowane wbrew ich zgodzie."
+   "opis": "Nawracające, intensywne pobudzenie seksualne związane z eksponowaniem narządów płciowych nieznajomym osobom, realizowane wbrew ich zgodzie.",
+   "icd10Code": "F65.2"
   },
   {
    "category": "Zaburzenia parafiliczne",
@@ -687,7 +772,8 @@
    "icd11Name": "Zaburzenie voyeurystyczne",
    "dsm5Code": "302.82",
    "dsm5Name": "Voyeuryzm",
-   "opis": "Nawracające, intensywne pobudzenie seksualne związane z obserwowaniem osób nieświadomych i niewyrażających zgody podczas rozbierania się lub aktywności seksualnej."
+   "opis": "Nawracające, intensywne pobudzenie seksualne związane z obserwowaniem osób nieświadomych i niewyrażających zgody podczas rozbierania się lub aktywności seksualnej.",
+   "icd10Code": "F65.3"
   },
   {
    "category": "Zaburzenia parafiliczne",
@@ -695,7 +781,8 @@
    "icd11Name": "Pedofilia",
    "dsm5Code": "302.2",
    "dsm5Name": "Zaburzenie pedofilne",
-   "opis": "Nawracające, intensywne pobudzenie seksualne skierowane na dzieci w wieku przedpokwitaniowym, realizowane w zachowaniu lub powodujące istotne cierpienie."
+   "opis": "Nawracające, intensywne pobudzenie seksualne skierowane na dzieci w wieku przedpokwitaniowym, realizowane w zachowaniu lub powodujące istotne cierpienie.",
+   "icd10Code": "F65.4"
   },
   {
    "category": "Zaburzenia parafiliczne",
@@ -703,7 +790,8 @@
    "icd11Name": "Zaburzenie z przymusem dotykania i ocierania sie (frotteuryzm)",
    "dsm5Code": "302.89",
    "dsm5Name": "Frotteuryzm",
-   "opis": "Nawracające, intensywne pobudzenie seksualne związane z dotykaniem lub ocieraniem się o osobę niewyrażającą zgody."
+   "opis": "Nawracające, intensywne pobudzenie seksualne związane z dotykaniem lub ocieraniem się o osobę niewyrażającą zgody.",
+   "icd10Code": "F65.81"
   },
   {
    "category": "Zaburzenia parafiliczne",
@@ -711,7 +799,8 @@
    "icd11Name": "Zaburzenie sadyzmu seksualnego",
    "dsm5Code": "302.84",
    "dsm5Name": "Sadyzm seksualny",
-   "opis": "Nawracające, intensywne pobudzenie seksualne związane z zadawaniem cierpienia fizycznego lub psychicznego innej osobie, realizowane bez jej zgody."
+   "opis": "Nawracające, intensywne pobudzenie seksualne związane z zadawaniem cierpienia fizycznego lub psychicznego innej osobie, realizowane bez jej zgody.",
+   "icd10Code": "F65.52"
   },
   {
    "category": "Zaburzenia parafiliczne",
@@ -719,7 +808,8 @@
    "icd11Name": "Zaburzenie masochizmu seksualnego",
    "dsm5Code": "302.83",
    "dsm5Name": "Masochizm seksualny",
-   "opis": "Nawracające, intensywne pobudzenie seksualne związane z odczuwaniem cierpienia lub upokorzenia przez samego siebie."
+   "opis": "Nawracające, intensywne pobudzenie seksualne związane z odczuwaniem cierpienia lub upokorzenia przez samego siebie.",
+   "icd10Code": "F65.51"
   },
   {
    "category": "Zaburzenia neuropoznawcze",
@@ -727,7 +817,8 @@
    "icd11Name": "Otepienie w chorobie Alzheimera",
    "dsm5Code": "331.0 / 294.1x",
    "dsm5Name": "Duze/lagodne zaburzenie neuropoznawcze w chorobie Alzheimera",
-   "opis": "Postępujące pogorszenie funkcji poznawczych (pamięć, język, funkcje wykonawcze) spowodowane zmianami neurodegeneracyjnymi typowymi dla choroby Alzheimera."
+   "opis": "Postępujące pogorszenie funkcji poznawczych (pamięć, język, funkcje wykonawcze) spowodowane zmianami neurodegeneracyjnymi typowymi dla choroby Alzheimera.",
+   "icd10Code": "G30.9"
   },
   {
    "category": "Zaburzenia neuropoznawcze",
@@ -735,7 +826,8 @@
    "icd11Name": "Otepienie naczyniowe",
    "dsm5Code": "290.40",
    "dsm5Name": "Duze/lagodne zaburzenie neuropoznawcze naczyniowe",
-   "opis": "Pogorszenie funkcji poznawczych spowodowane chorobą naczyń mózgowych, o przebiegu często skokowym, powiązane z incydentami naczyniowymi."
+   "opis": "Pogorszenie funkcji poznawczych spowodowane chorobą naczyń mózgowych, o przebiegu często skokowym, powiązane z incydentami naczyniowymi.",
+   "icd10Code": "F01.50"
   },
   {
    "category": "Zaburzenia neuropoznawcze",
@@ -743,7 +835,8 @@
    "icd11Name": "Majaczenie (delirium)",
    "dsm5Code": "780.09 / kody wg przyczyny",
    "dsm5Name": "Majaczenie",
-   "opis": "Ostro występujące zaburzenie świadomości, uwagi i funkcji poznawczych, o zmiennym nasileniu w ciągu doby, zwykle wtórne do choroby somatycznej, zatrucia lub odstawienia substancji."
+   "opis": "Ostro występujące zaburzenie świadomości, uwagi i funkcji poznawczych, o zmiennym nasileniu w ciągu doby, zwykle wtórne do choroby somatycznej, zatrucia lub odstawienia substancji.",
+   "icd10Code": "F05"
   },
   {
    "category": "Zaburzenia neuropoznawcze",
@@ -751,7 +844,8 @@
    "icd11Name": "Lagodne zaburzenie neuropoznawcze",
    "dsm5Code": "331.83 / 294.9",
    "dsm5Name": "Lagodne zaburzenie neuropoznawcze",
-   "opis": "Zauważalne, ale nieznacznie upośledzające codzienne funkcjonowanie pogorszenie funkcji poznawczych w stosunku do wcześniejszego poziomu, mogące poprzedzać otępienie."
+   "opis": "Zauważalne, ale nieznacznie upośledzające codzienne funkcjonowanie pogorszenie funkcji poznawczych w stosunku do wcześniejszego poziomu, mogące poprzedzać otępienie.",
+   "icd10Code": "F06.70"
   },
   {
    "category": "Objawy katatoniczne",
@@ -759,7 +853,8 @@
    "icd11Name": "Katatonia towarzyszaca innemu zaburzeniu psychicznemu",
    "dsm5Code": "293.89",
    "dsm5Name": "Katatonia towarzyszaca innemu zaburzeniu psychicznemu",
-   "opis": "Zespół zaburzeń psychomotorycznych (bezruch, mutyzm, pobudzenie, dziwaczne pozy) współwystępujący z innym zaburzeniem psychicznym, najczęściej psychotycznym lub afektywnym."
+   "opis": "Zespół zaburzeń psychomotorycznych (bezruch, mutyzm, pobudzenie, dziwaczne pozy) współwystępujący z innym zaburzeniem psychicznym, najczęściej psychotycznym lub afektywnym.",
+   "icd10Code": "F06.1"
   }
  ]
 }
