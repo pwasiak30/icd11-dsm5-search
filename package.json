@@ -1,0 +1,15 @@
+{
+  "name": "icd11-dsm5-search",
+  "version": "2.0.0",
+  "description": "Wyszukiwarka zaburzen psychicznych po nazwie, kodzie ICD-11 lub kodzie DSM-5 - w pelni offline, bez logowania i kluczy API.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "MIT"
+}
