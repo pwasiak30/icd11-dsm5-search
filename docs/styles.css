@@ -245,6 +245,50 @@ main {
   margin: 4px 2px 0;
 }
 
+.coffee-fab {
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  right: 16px;
+  bottom: 16px;
+  background: var(--accent-2);
+  color: #2a1a0a;
+  text-decoration: none;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 11px 16px;
+  border-radius: 999px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.coffee-fab:hover,
+.coffee-fab:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 9px 20px rgba(0, 0, 0, 0.4);
+}
+
+.coffee-fab .coffee-icon {
+  font-size: 16px;
+  line-height: 1;
+}
+
+@media (max-width: 480px) {
+  .coffee-fab {
+    right: 12px;
+    bottom: 12px;
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 900px) {
+  .coffee-fab { right: 24px; bottom: 24px; }
+}
+
 .small-note {
   color: var(--text-dim);
   font-size: 0.82rem;
